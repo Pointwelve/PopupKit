@@ -253,7 +253,7 @@ extension PopupView.ShowType: Animatable {
         case .bounceIn:
             return {
                 popUpView.containerView.alpha = 1.0
-                popUpView.transform = CGAffineTransform.identity
+                popUpView.containerView.transform = CGAffineTransform.identity
             }
         default:
             return {}
