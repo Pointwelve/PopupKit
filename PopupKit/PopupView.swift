@@ -182,6 +182,8 @@ open class PopupView: UIView {
     private var isBeingDismissed = false
 
     private var task: DispatchWorkItem?
+    
+    private var visualBlurView: UIVisualEffectView?
 
     private var canPresentPopup: Bool {
         return !(isBeingPresented || isBeingDismissed || isPresenting)
@@ -437,12 +439,16 @@ open class PopupView: UIView {
                 let visualBlur = UIVisualEffectView(effect: blurEffect)
                 visualBlur.frame = self.backgroundView.frame
                 visualBlur.contentView.addSubview(self.backgroundView)
+                self.visualBlurView = visualBlur
+                
                 self.insertSubview(visualBlur, belowSubview: self.containerView)
             case .darkBlur:
                 let blurEffect = UIBlurEffect(style: .dark)
                 let visualBlur = UIVisualEffectView(effect: blurEffect)
                 visualBlur.frame = self.backgroundView.frame
                 visualBlur.contentView.addSubview(self.backgroundView)
+                self.visualBlurView = visualBlur
+                
                 self.insertSubview(visualBlur, belowSubview: self.containerView)
             }
 
@@ -555,23 +561,13 @@ open class PopupView: UIView {
 
     internal func updateForInterfaceOrientation() {
 #if !os(tvOS)
-        let orientation = UIDevice.current.orientation
-
-        var angle: CGFloat = 0.0
-        switch orientation {
-        case .portraitUpsideDown:
-            angle = .pi
-        case .landscapeLeft:
-            angle = .pi / -2
-        case .landscapeRight:
-            angle = .pi / 2
-        default:
-            // Portrait and unknown
-            angle = 0.0
+        if let windowFrame = window?.frame {
+            frame = windowFrame
+            
+            if let visualBlurView = visualBlurView {
+                visualBlurView.frame = frame
+            }
         }
-
-        transform = CGAffineTransform(rotationAngle: angle)
-        frame = window!.bounds
 #endif
     }
 }
