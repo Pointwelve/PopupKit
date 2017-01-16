@@ -2,14 +2,21 @@ use_frameworks!
 
 project 'PopupKitExample.xcodeproj'
 
+def popupkit
+    pod 'PopupKit', :path => "../"
+end
+
 target 'PopupKit_ObjC_Example' do
-  pod 'PopupKit', :path => "../"
+    popupkit
+    target 'PopupKit_ObjC_ExampleUITests' do
+        popupkit
+    end
 end
 
 target 'PopupKit_tvOS_Example' do
-    pod 'PopupKit', :path => "../"
+    popupkit
 end
 
 target 'PopupKit_Swift_Example' do
-    pod 'PopupKit', :path => "../"
+    popupkit
 end

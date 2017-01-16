@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10BFA69D08F78EF0C56F656B /* Pods_PopupKit_ObjC_Example_PopupKit_ObjC_ExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E6735380502F96693C3BD7 /* Pods_PopupKit_ObjC_Example_PopupKit_ObjC_ExampleUITests.framework */; };
 		22F24365DDF764B981CB68EC /* Pods_PopupKit_tvOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD77D4F0BD60AA4CB156FC8C /* Pods_PopupKit_tvOS_Example.framework */; };
 		56F39BB16380523640B28624 /* Pods_PopupKit_ObjC_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D68B5BB11561724E9C620FF6 /* Pods_PopupKit_ObjC_Example.framework */; };
 		6D124BD11E287195000C572A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D124BD01E287195000C572A /* main.m */; };
@@ -24,12 +25,24 @@
 		6D124C061E2871B8000C572A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D124C041E2871B8000C572A /* Main.storyboard */; };
 		6D124C081E2871B8000C572A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D124C071E2871B8000C572A /* Assets.xcassets */; };
 		6D124C0E1E2872FC000C572A /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D124C0D1E2872FC000C572A /* TestViewController.swift */; };
+		6D3135DE1E2C5E3100850E37 /* PopupKit_ObjC_ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3135DD1E2C5E3100850E37 /* PopupKit_ObjC_ExampleUITests.m */; };
 		74A89D1183948A55468C70E9 /* Pods_PopupKit_Swift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F30084ECBA70A0013D97BC8 /* Pods_PopupKit_Swift_Example.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D3135E01E2C5E3100850E37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D124BA71E287177000C572A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D124BCC1E287195000C572A;
+			remoteInfo = PopupKit_ObjC_Example;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1238435930C8204F1C09E0EE /* Pods-PopupKit_tvOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupKit_tvOS_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopupKit_tvOS_Example/Pods-PopupKit_tvOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1F30084ECBA70A0013D97BC8 /* Pods_PopupKit_Swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopupKit_Swift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D2E8F5AB2DD9CBA9EC53115 /* Pods-PopupKit_ObjC_Example-PopupKit_ObjC_ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupKit_ObjC_Example-PopupKit_ObjC_ExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopupKit_ObjC_Example-PopupKit_ObjC_ExampleUITests/Pods-PopupKit_ObjC_Example-PopupKit_ObjC_ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		60E88732B727A10D93F2B00E /* Pods-PopupKit_tvOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupKit_tvOS_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopupKit_tvOS_Example/Pods-PopupKit_tvOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6D124BCD1E287195000C572A /* PopupKit_ObjC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopupKit_ObjC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D124BD01E287195000C572A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,10 +67,15 @@
 		6D124C071E2871B8000C572A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D124C091E2871B8000C572A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D124C0D1E2872FC000C572A /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		6D3135DB1E2C5E3100850E37 /* PopupKit_ObjC_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopupKit_ObjC_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D3135DD1E2C5E3100850E37 /* PopupKit_ObjC_ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopupKit_ObjC_ExampleUITests.m; sourceTree = "<group>"; };
+		6D3135DF1E2C5E3100850E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EC810092765585D1744B724 /* Pods-PopupKit_Swift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupKit_Swift_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopupKit_Swift_Example/Pods-PopupKit_Swift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		80B8ED427533DC2EA6C771E1 /* Pods-PopupKit_ObjC_Example-PopupKit_ObjC_ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupKit_ObjC_Example-PopupKit_ObjC_ExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopupKit_ObjC_Example-PopupKit_ObjC_ExampleUITests/Pods-PopupKit_ObjC_Example-PopupKit_ObjC_ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BAB84AD215DF1A2CB31FC30D /* Pods-PopupKit_ObjC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupKit_ObjC_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopupKit_ObjC_Example/Pods-PopupKit_ObjC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BAE28F4752CB61B12B0B32EB /* Pods-PopupKit_ObjC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupKit_ObjC_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopupKit_ObjC_Example/Pods-PopupKit_ObjC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BD77D4F0BD60AA4CB156FC8C /* Pods_PopupKit_tvOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopupKit_tvOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6E6735380502F96693C3BD7 /* Pods_PopupKit_ObjC_Example_PopupKit_ObjC_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopupKit_ObjC_Example_PopupKit_ObjC_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD961AEE2A2624DBBB0F37BA /* Pods-PopupKit_Swift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupKit_Swift_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopupKit_Swift_Example/Pods-PopupKit_Swift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D68B5BB11561724E9C620FF6 /* Pods_PopupKit_ObjC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopupKit_ObjC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -87,6 +105,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6D3135D81E2C5E3100850E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10BFA69D08F78EF0C56F656B /* Pods_PopupKit_ObjC_Example_PopupKit_ObjC_ExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -96,6 +122,7 @@
 				D68B5BB11561724E9C620FF6 /* Pods_PopupKit_ObjC_Example.framework */,
 				1F30084ECBA70A0013D97BC8 /* Pods_PopupKit_Swift_Example.framework */,
 				BD77D4F0BD60AA4CB156FC8C /* Pods_PopupKit_tvOS_Example.framework */,
+				C6E6735380502F96693C3BD7 /* Pods_PopupKit_ObjC_Example_PopupKit_ObjC_ExampleUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -106,6 +133,7 @@
 				47ACAA3079105E797D177705 /* Frameworks */,
 				903AF2DE3E4B2CF41738F26B /* Pods */,
 				6D124BCE1E287195000C572A /* PopupKit_ObjC_Example */,
+				6D3135DC1E2C5E3100850E37 /* PopupKit_ObjC_ExampleUITests */,
 				6D124BE91E2871A6000C572A /* PopupKit_Swift_Example */,
 				6D124BFF1E2871B8000C572A /* PopupKit_tvOS_Example */,
 				6D124BB01E287177000C572A /* Products */,
@@ -118,6 +146,7 @@
 				6D124BCD1E287195000C572A /* PopupKit_ObjC_Example.app */,
 				6D124BE81E2871A6000C572A /* PopupKit_Swift_Example.app */,
 				6D124BFE1E2871B8000C572A /* PopupKit_tvOS_Example.app */,
+				6D3135DB1E2C5E3100850E37 /* PopupKit_ObjC_ExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,6 +200,15 @@
 			path = PopupKit_tvOS_Example;
 			sourceTree = "<group>";
 		};
+		6D3135DC1E2C5E3100850E37 /* PopupKit_ObjC_ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D3135DD1E2C5E3100850E37 /* PopupKit_ObjC_ExampleUITests.m */,
+				6D3135DF1E2C5E3100850E37 /* Info.plist */,
+			);
+			path = PopupKit_ObjC_ExampleUITests;
+			sourceTree = "<group>";
+		};
 		903AF2DE3E4B2CF41738F26B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +218,8 @@
 				CD961AEE2A2624DBBB0F37BA /* Pods-PopupKit_Swift_Example.release.xcconfig */,
 				1238435930C8204F1C09E0EE /* Pods-PopupKit_tvOS_Example.debug.xcconfig */,
 				60E88732B727A10D93F2B00E /* Pods-PopupKit_tvOS_Example.release.xcconfig */,
+				3D2E8F5AB2DD9CBA9EC53115 /* Pods-PopupKit_ObjC_Example-PopupKit_ObjC_ExampleUITests.debug.xcconfig */,
+				80B8ED427533DC2EA6C771E1 /* Pods-PopupKit_ObjC_Example-PopupKit_ObjC_ExampleUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -247,6 +287,27 @@
 			productReference = 6D124BFE1E2871B8000C572A /* PopupKit_tvOS_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6D3135DA1E2C5E3100850E37 /* PopupKit_ObjC_ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D3135E41E2C5E3100850E37 /* Build configuration list for PBXNativeTarget "PopupKit_ObjC_ExampleUITests" */;
+			buildPhases = (
+				48A1CF4FC1F0BDC9604B8F1C /* [CP] Check Pods Manifest.lock */,
+				6D3135D71E2C5E3100850E37 /* Sources */,
+				6D3135D81E2C5E3100850E37 /* Frameworks */,
+				6D3135D91E2C5E3100850E37 /* Resources */,
+				49E3D6235809041F3203B5B0 /* [CP] Embed Pods Frameworks */,
+				42E0DCCFBDEACC24786D4F22 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D3135E11E2C5E3100850E37 /* PBXTargetDependency */,
+			);
+			name = PopupKit_ObjC_ExampleUITests;
+			productName = PopupKit_ObjC_ExampleUITests;
+			productReference = 6D3135DB1E2C5E3100850E37 /* PopupKit_ObjC_ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -272,6 +333,11 @@
 						DevelopmentTeam = LZV346N8B3;
 						ProvisioningStyle = Automatic;
 					};
+					6D3135DA1E2C5E3100850E37 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D124BCC1E287195000C572A;
+					};
 				};
 			};
 			buildConfigurationList = 6D124BAA1E287177000C572A /* Build configuration list for PBXProject "PopupKitExample" */;
@@ -290,6 +356,7 @@
 				6D124BCC1E287195000C572A /* PopupKit_ObjC_Example */,
 				6D124BE71E2871A6000C572A /* PopupKit_Swift_Example */,
 				6D124BFD1E2871B8000C572A /* PopupKit_tvOS_Example */,
+				6D3135DA1E2C5E3100850E37 /* PopupKit_ObjC_ExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -321,6 +388,13 @@
 			files = (
 				6D124C081E2871B8000C572A /* Assets.xcassets in Resources */,
 				6D124C061E2871B8000C572A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D3135D91E2C5E3100850E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +444,51 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		42E0DCCFBDEACC24786D4F22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopupKit_ObjC_Example-PopupKit_ObjC_ExampleUITests/Pods-PopupKit_ObjC_Example-PopupKit_ObjC_ExampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48A1CF4FC1F0BDC9604B8F1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		49E3D6235809041F3203B5B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopupKit_ObjC_Example-PopupKit_ObjC_ExampleUITests/Pods-PopupKit_ObjC_Example-PopupKit_ObjC_ExampleUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A4EABD8FA1A14E1B10992D48 /* [CP] Embed Pods Frameworks */ = {
@@ -493,7 +612,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6D3135D71E2C5E3100850E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3135DE1E2C5E3100850E37 /* PopupKit_ObjC_ExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D3135E11E2C5E3100850E37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D124BCC1E287195000C572A /* PopupKit_ObjC_Example */;
+			targetProxy = 6D3135E01E2C5E3100850E37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6D124BD81E287195000C572A /* Main.storyboard */ = {
@@ -728,6 +863,32 @@
 			};
 			name = Release;
 		};
+		6D3135E21E2C5E3100850E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D2E8F5AB2DD9CBA9EC53115 /* Pods-PopupKit_ObjC_Example-PopupKit_ObjC_ExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PopupKit_ObjC_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rynecheow.PopupKit-ObjC-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PopupKit_ObjC_Example;
+			};
+			name = Debug;
+		};
+		6D3135E31E2C5E3100850E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80B8ED427533DC2EA6C771E1 /* Pods-PopupKit_ObjC_Example-PopupKit_ObjC_ExampleUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PopupKit_ObjC_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rynecheow.PopupKit-ObjC-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PopupKit_ObjC_Example;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -766,6 +927,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		6D3135E41E2C5E3100850E37 /* Build configuration list for PBXNativeTarget "PopupKit_ObjC_ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D3135E21E2C5E3100850E37 /* Debug */,
+				6D3135E31E2C5E3100850E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
