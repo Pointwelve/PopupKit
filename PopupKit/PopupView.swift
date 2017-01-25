@@ -40,6 +40,8 @@ open class PopupView: UIView {
         case bounceInFromBottom
         case bounceInFromLeft
         case bounceInFromRight
+        
+        static let allValues: [ShowType] = [.none, .fadeIn, .growIn, .shrinkIn, .slideInFromTop, .slideInFromBottom, .slideInFromLeft, .slideInFromRight, .bounceIn, .bounceInFromTop, .bounceInFromBottom, .bounceInFromLeft, .bounceInFromRight]
     }
 
     /// Controls how the popup will be dismissed.
@@ -59,7 +61,8 @@ open class PopupView: UIView {
         case bounceOutToBottom
         case bounceOutToLeft
         case bounceOutToRight
-
+        
+        static let allValues: [DismissType] = [.none, .fadeOut, .growOut, .shrinkOut, .slideOutToTop, .slideOutToBottom, .slideOutToLeft, .slideOutToRight, .bounceOut, .bounceOutToTop, .bounceOutToBottom, .bounceOutToLeft, .bounceOutToRight]
     }
 
     /// Controls where the popup will come to rest horizontally.
@@ -71,6 +74,8 @@ open class PopupView: UIView {
         case center
         case rightOfCenter
         case right
+        
+        static let allValues: [HorizontalLayout] = [.left, .leftOfCenter, .center, .rightOfCenter, .right]
     }
 
     /// Controls where the popup will come to rest vertically.
@@ -82,6 +87,8 @@ open class PopupView: UIView {
         case center
         case belowCenter
         case bottom
+        
+        static let allValues: [VerticalLayout] = [.top, .aboveCenter, .center, .belowCenter, .bottom]
     }
 
     @objc(PopupViewMaskType)
@@ -96,6 +103,8 @@ open class PopupView: UIView {
         case lightBlur
         /// Don't allow interaction with underlying views, blurs background.
         case darkBlur
+        
+        static let allValues: [MaskType] = [.none, .clear, .dimmed, .lightBlur, .darkBlur]
     }
 
     public enum Layout {
