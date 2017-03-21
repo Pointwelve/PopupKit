@@ -5,6 +5,8 @@ PopupKit is a simple and flexible iOS framework for presenting any custom view a
 
 <p align="center"><img src="http://i.imgur.com/BEmRGb5.gif"/></p>
 
+[![BuddyBuild](https://dashboard.buddybuild.com/api/statusImage?appID=58d0dcda06b08d0001da93e8&branch=master&build=latest)](https://dashboard.buddybuild.com/apps/58d0dcda06b08d0001da93e8/build/latest?branch=master)
+
 ##Installation
 
 ###CocoaPods
